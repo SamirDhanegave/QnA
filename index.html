@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+
+
+   <center><h1>C++ Important QnA Unit - 1</h1></center>
+    </nav>
+<br>
+    <center><h2>OOPS</h2></center>
+    <br>
+    <article>
+        Object-Oriented Programming (OOP) is a paradigm that revolutionized the way software is developed. It revolves around the concept of objects, which are instances of classes, and the interactions between these objects. OOP brings modularity and reusability to code, making it easier to manage and maintain large software projects. Let's delve deeper into the key principles and features of OOP:
+<br>
+<br>
+<hr>
+<br>
+    <strong>1. Encapsulation :</strong>
+    Encapsulation refers to the bundling of data and methods that operate on the data into a single unit, called a class. This unit hides the internal state of an object from the outside world and only exposes the necessary functionalities through methods. This helps in achieving data hiding and protects the integrity of the data.
+<br>
+<br>
+<strong>2. Inheritance :</strong>
+Inheritance is a mechanism that allows a class (subclass or derived class) to inherit properties and behavior (methods) from another class (superclass or base class). This promotes code reusability and establishes a hierarchical relationship between classes. Subclasses can extend the functionality of their parent classes by adding new methods or overriding existing ones.
+<br>
+<br>
+
+<strong>3. Polymorphism:</strong>
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables flexibility and extensibility in code by allowing methods to behave differently based on the object they are invoked upon. Polymorphism can be achieved through method overriding (runtime polymorphism) or method overloading (compile-time polymorphism).
+
+<br>
+<br>
+
+<strong>4. Abstraction: </strong>
+Abstraction refers to the process of hiding the implementation details of a class while exposing only the essential features. It allows developers to focus on what an object does rather than how it does it. Abstract classes and interfaces are used to define abstract data types, which serve as blueprints for concrete implementations.
+<br>
+<br>
+
+<strong>5. Classes and Objects:</strong>
+In OOP, everything is treated as an object, which is an instance of a class. A class serves as a blueprint for creating objects, defining their attributes (fields) and behaviors (methods). Objects interact with each other by sending messages and invoking methods.
+
+<strong>6. Message Passing: </strong>
+OOP emphasizes communication between objects through message passing. Objects communicate by invoking methods on each other, either within the same class or across different classes. This promotes loose coupling and modular design, as objects only need to know how to send and receive messages, not the internal details of each other.
+
+<h4>
+    Overall, Object-Oriented Programming provides a powerful and flexible way to design and organize complex software systems. By focusing on objects, encapsulation, inheritance, polymorphism, and abstraction, OOP enables developers to build scalable, maintainable, and reusable codebases.
+</h4>
+    </article>
+<br>
+    <hr>
+    <br>
+
+    <center><h2>What is namespace in c++ with example?</h2></center>
+
+    <br>
+    <article>
+        In C++, a namespace is a declarative region that provides a scope for identifiers (such as variables, functions, and classes) to prevent name conflicts. Namespaces help organize code and avoid naming collisions when multiple libraries or modules are used in the same program. Here's an example to illustrate how namespaces work in C++:
+
+    </article>
+
+<br>
+<hr>
+<br>
+
+<h4>Code</h4>
+<h3>For code please refer <a href="https://chatgpt.com/">Chat-GPT</a></h3>
+<br>
+<hr>
+<br>
+<p>
+    In this example:
+
+Two namespaces, Math and String, are defined to encapsulate mathematical and string manipulation functions, respectively.
+</p>
+<br>
+<p>
+    Inside the Math namespace, there's a function square() to calculate the square of a number.
+</p>
+<br>
+<p>
+    Inside the String namespace, there's a function concatenate() to concatenate two strings.
+</p>
+<br>
+<p>
+    In the main() function, these functions are accessed using the scope resolution operator ::, 
+    which specifies the namespace from which the function should be called (Math::square(5) and String::concatenate("Hello, ", "world!")).
+</p>
+<br>
+<p>
+    Namespaces provide a way to avoid conflicts if another library or module defines functions with the same name (square() or concatenate() in this case).
+</p>
+<br>
+<hr>
+<br>
+<center><h2>What are tokens in c++?</h2></center>
+<br>
+<article>
+    
+In C++, a token is the smallest individual unit of a program that the compiler can recognize. Tokens are the building blocks of C++ code, and they include identifiers, keywords, constants, operators, and punctuation symbols. Here's a breakdown of the different types of tokens in C++:
+</article>
+<br>
+<hr>
+<br>
+<p>
+    <strong>1. Keywords: </strong>Keywords are predefined identifiers that have special meanings in the C++ language. Examples include int, if, while, class, return, etc.
+</p>
+<br>
+<hr>
+<br>
+<p>
+    <strong>2. Identifiers:</strong>Identifiers are names given to various program elements such as variables, functions, classes, etc. An identifier must begin with a letter (either uppercase or lowercase) or an underscore (_) and can be followed by letters, digits, or underscores.
+</p>
+<br>
+<hr>
+<br>
+
+<p>
+    <strong>3. Constants :</strong> Constants are literal values that do not change during the execution of a program. There are different types of constants:
+<br>
+<p>
+    <strong>Integer constants:</strong>Whole numbers without any fractional or exponential part (e.g., 42, -10, 0xFF).
+</p>
+<br>
+<p>
+    <strong>Character constants:</strong> Single characters enclosed in single quotes (e.g., 'a', '5', '\n').
+    String literals: Sequences of characters enclosed in double quotes (e.g., "Hello", "123", "C++").
+    
+</p>
+<br>
+<p>
+    <strong>Floating-point constants: </strong>Numbers with a fractional part or exponent (e.g., 3.14, -0.005, 1.2e3).
+</p>
+<br>
+<p>
+    <strong>String literals:</strong>Sequences of characters enclosed in double quotes (e.g., "Hello", "123", "C++").
+</p>
+<br>
+<p>
+    <strong>4. Operators:</strong>Operators perform various operations on operands. They include arithmetic operators (+, -, *, /, %), relational operators (==, !=, <, <=, >, >=), logical operators (&&, ||, !), assignment operators (=, +=, -=), bitwise operators (&, |, ^, <<, >>), etc.
+</p>
+<br>
+<p>
+    <strong>5.Punctuation Symbols </strong>Punctuation symbols are special characters used to separate or group different parts of the code. They include parentheses (), braces {}, brackets [], commas ,, semicolons ;, colons :, periods ., etc.
+</p>
+<br>
+<p>
+    <strong>6.Comments:</strong>Comments are not considered part of the program's executable code but provide useful information to the programmer. They help in making the code more understandable and maintainable. In C++, comments can be single-line (//) or multi-line (/* */).
+</p>
+</p>
+</body>
+</html>
